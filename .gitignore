@@ -1,0 +1,360 @@
+# ============================================
+# Fichier .gitignore pour projet MediCare JEE
+# ============================================
+
+# === Compilation et builds ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock
+target/
+classes/
+build/
+dist/
+dependency-reduced-pom.xml
+
+# === Maven ===
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+.idea/libraries/
+.idea/artifacts/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/sonarlint/
+.idea/uiDesigner.xml
+.idea/workspace.xml
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dbnavigator.xml
+.idea/gradle.xml
+.idea/codeStyles/
+.idea/runConfigurations/
+*.hprof
+*.iml
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swt
+*.lock
+.apt_generated
+.apt_generated_tests
+.factorypath
+.springBeans
+.sts4-cache
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+*.code-snippets
+
+# === NetBeans ===
+nbproject/
+nb-configuration.xml
+nbactions.xml
+.nb-gradle/
+build/
+dist/
+
+# === WildFly / JBoss ===
+*.deployed
+*.failed
+*.isdeploying
+*.undeployed
+*.deploy
+*.war.deployed
+*.war.failed
+*.war.isdeploying
+*.war.undeployed
+standalone/deployments/*.war.deployed
+standalone/deployments/*.war.failed
+standalone/deployments/*.war.isdeploying
+standalone/deployments/*.war.undeployed
+standalone/data/
+standalone/log/
+standalone/tmp/
+standalone/configuration/*.log
+standalone/configuration/*.xml.old
+standalone/configuration/*.backup
+domain/data/
+domain/log/
+domain/tmp/
+domain/configuration/*.log
+
+# === MySQL ===
+*.sql.bak
+*.sql.old
+mysql_data/
+*.ibd
+*.frm
+*.myd
+*.myi
+
+# === OS spécifique ===
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.dll
+*.exe
+*.cache
+*.lnk
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDB
+.AppleDesktop
+*.AppleDouble
+*.AppleDB
+*.AppleDesktop
+*.apdisk
+*.ds_store
+
+# Linux
+.directory
+*.pid
+*.socket
+*.so
+*.so.*
+
+# === Logs ===
+*.log
+logs/
+log/
+*.log.gz
+*.log.zip
+*.out
+*.err
+
+# === Configuration sensible ===
+# Ne pas committer les configurations avec mots de passe
+**/application.properties
+**/config.properties
+**/database.properties
+**/jdbc.properties
+**/hibernate.properties
+**/connection.properties
+*.secret
+*.key
+*.p12
+*.jks
+*.keystore
+*.truststore
+*.pem
+*.crt
+*.key
+
+# === Fichiers temporaires ===
+*.tmp
+*.temp
+*.cache
+*.lck
+*.lock
+*~
+*.swp
+*.swo
+*#
+.#*
+\#*#
+.#*
+
+# === Rapports et tests ===
+test-output/
+surefire-reports/
+failsafe-reports/
+target/surefire-reports/
+target/failsafe-reports/
+*.html.report
+*.xml.report
+*.test-report
+
+# === Archives ===
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.bz2
+*.xz
+
+# === Fichiers de backup IDE ===
+*.backup
+*.orig
+*.old
+*.save
+*.orig.*
+*.save.*
+
+# === Docker ===
+docker-compose.override.yml
+.dockerignore
+Dockerfile.*
+docker/
+*.dockerfile
+
+# === Node.js / npm (si utilisé pour frontend) ===
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.eslintcache
+.env
+.env.local
+.env.*.local
+
+# === Clés et tokens ===
+*.key
+*.pem
+*.crt
+*.csr
+*.pkcs12
+*.pfx
+*.p12
+.secret
+.token
+*.token
+*.jwt
+*.rsa
+.env.local
+
+# === Fichiers de données ===
+*.db
+*.sqlite
+*.db3
+*.mdb
+*.accdb
+*.dbf
+*.mdf
+*.ldf
+
+# === Fichiers spécifiques projet MediCare ===
+# Ne pas committer les logs WildFly spécifiques
+wildfly.log*
+server.log*
+boot.log*
+*.log.*
+standalone.xml.backup*
+standalone.xml.old*
+standalone.xml.bak*
+*.deployment*
+
+# Fichiers de configuration avec credentials
+**/db.properties
+**/database-config.xml
+**/secret-config.properties
+
+# Fichiers générés par la base de données
+*.csv.export
+*.sql.dump
+dump.sql
+backup.sql
+
+# Fichiers de rapports générés
+reports/
+*.pdf
+*.docx
+
+# Fichiers de données patients (confidentiels)
+# Ne jamais committer de vraies données patients
+data/export/
+patient_data_export.*
+consultations_export.*
+
+# === Certificats SSL ===
+*.keystore
+*.truststore
+*.jks
+*.p12
+
+# === IntelliJ spécifique ===
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/maven.xml
+.idea/artifacts
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/libraries
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/codeStyles
+.idea/runConfigurations
+.idea/sqlDataSources.xml
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqldialects.xml
+.idea/find.xml
+.idea/jarRepositories.xml
+.idea/azure/azureSettings.xml
+
+# === Configuration spécifique à WildFly ===
+standalone/configuration/application-users.properties
+standalone/configuration/application-roles.properties
+standalone/configuration/mgmt-users.properties
+standalone/configuration/mgmt-groups.properties
+standalone/configuration/elytron-tool.sh
+domain/configuration/application-users.properties
+domain/configuration/application-roles.properties
+domain/configuration/mgmt-users.properties
+domain/configuration/mgmt-groups.properties
+
+# === Profils Maven ===
+# Ne pas committer vos profils personnels
+.mavenrc
+.mvn/extensions.xml
+.mvn/settings.xml
+.mvn/maven.config
+.mvn/jvm.config
+
+# === Fichiers sensibles du projet ===
+# Fichiers avec des informations de connexion
+**/db_credentials.properties
+**/email_config.properties
+**/api_keys.properties
