@@ -1,4 +1,4 @@
-package com.medicare.medicare;
+package com.medicare;
 
 import java.io.*;
 import jakarta.servlet.http.*;
