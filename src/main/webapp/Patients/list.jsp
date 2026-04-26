@@ -33,18 +33,18 @@
 <jsp:include page="/layout/sidebar.jsp" />
 
 <div class="main-content">
-    <div class="counter">📊 Patients enregistrés : ${totalPatients}</div>
+    <div class="counter">Patients enregistrés : ${totalPatients}</div>
 
     <div class="card">
         <div class="header-card">
             <h1>📋 Liste des patients</h1>
-            <a href="${pageContext.request.contextPath}/patients/add" class="btn-add">➕ Nouveau patient</a>
+            <a href="${pageContext.request.contextPath}/patients/add" class="btn-add">Nouveau patient</a>
         </div>
 
         <div class="search-box">
             <form action="${pageContext.request.contextPath}/patients/search" method="get" class="search-form">
                 <input type="text" name="keyword" placeholder="Rechercher par nom ou email..." value="${searchKeyword}">
-                <button type="submit">🔍 Rechercher</button>
+                <button type="submit">Rechercher</button>
                 <c:if test="${not empty searchKeyword}">
                     <a href="${pageContext.request.contextPath}/patients/" class="btn-clear">✖ Effacer</a>
                 </c:if>
