@@ -24,7 +24,7 @@
 
 <div class="main-content">
     <div class="card">
-        <h1>📋 Nouvelle consultation</h1>
+        <h1>Nouvelle consultation</h1>
         <form action="${pageContext.request.contextPath}/consultations/add" method="post">
             <div class="form-group">
                 <label>Patient *</label>

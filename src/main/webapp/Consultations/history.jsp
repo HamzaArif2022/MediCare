@@ -33,7 +33,7 @@
     </div>
 
     <div class="stats">
-        <p>📊 Nombre total de consultations : <span>${consultationCount}</span></p>
+        <p> Nombre total de consultations : <span>${consultationCount}</span></p>
     </div>
 
     <div class="card">

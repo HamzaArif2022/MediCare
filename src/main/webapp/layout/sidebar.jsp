@@ -51,6 +51,26 @@
         font-size: 12px;
         opacity: 0.7;
     }
+    /* Style du bouton de déconnexion */
+    .logout-btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 8px 20px;
+        background-color: white;
+        color: #2a5298 !important;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 13px;
+        transition: all 0.3s ease;
+        border: 1px solid white;
+    }
+    .logout-btn:hover {
+        background-color: rgba(255,255,255,0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        color: #1e3c72 !important;
+    }
     .main-content { margin-left: 280px; min-height: 100vh; background: #f5f7fa; padding: 20px; }
     @media (max-width: 768px) {
         .sidebar { width: 70px; }
@@ -58,6 +78,7 @@
         .main-content { margin-left: 70px; }
         .nav-link { justify-content: center; }
         .nav-icon { font-size: 24px; width: auto; }
+        .logout-btn { padding: 6px 12px; font-size: 11px; }
     }
 </style>
 
@@ -87,7 +108,8 @@
         </li>
     </ul>
     <div class="sidebar-footer">
-        <p>© 2026 MediCare</p>
+        <p>© 2024 MediCare</p>
         <p>Version 1.0</p>
+        <a href="${pageContext.request.contextPath}/logout" class="logout-btn">Déconnexion</a>
     </div>
 </div>

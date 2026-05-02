@@ -24,10 +24,10 @@
 <jsp:include page="/layout/sidebar.jsp" />
 
 <div class="main-content">
-    <div class="counter">📊 Patients enregistrés : ${totalPatients}</div>
+    <div class="counter"> Patients enregistrés : ${totalPatients}</div>
 
     <div class="card">
-        <h1>➕ Ajouter un patient</h1>
+        <h1>Ajouter un patient</h1>
         <form action="${pageContext.request.contextPath}/patients/add" method="post">
             <div class="form-group">
                 <label>Prénom *</label>

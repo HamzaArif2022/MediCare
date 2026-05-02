@@ -37,7 +37,7 @@
 
     <div class="card">
         <div class="header-card">
-            <h1>📋 Liste des patients</h1>
+            <h1>Liste des patients</h1>
             <a href="${pageContext.request.contextPath}/patients/add" class="btn-add">Nouveau patient</a>
         </div>
 

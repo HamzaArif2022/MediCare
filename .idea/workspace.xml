@@ -10,7 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ae15e10-8ab6-43e3-9a88-cacb68bafd47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/medicare/controllers/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/medicare/controllers/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/medicare/filters/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/medicare/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/medicare/model/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/doctor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Consultations/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Consultations/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Consultations/history.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Consultations/history.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Patients/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Patients/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Patients/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Patients/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layout/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/layout/sidebar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +78,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/Documents/hightech/MediCare/src/main/webapp/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,6 +93,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Documents\hightech\MediCare\src\main\webapp\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pc\Documents\hightech\MediCare\src\main\webapp\pass" />
       <recent name="C:\Users\pc\Documents\hightech\MediCare\src\main\webapp" />
@@ -189,7 +205,8 @@
       <workItem from="1776290739413" duration="3658000" />
       <workItem from="1776363730924" duration="8213000" />
       <workItem from="1776542577889" duration="10104000" />
-      <workItem from="1777240744269" duration="466000" />
+      <workItem from="1777240744269" duration="3929000" />
+      <workItem from="1777730419544" duration="266000" />
     </task>
     <servers />
   </component>
@@ -203,6 +220,16 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/dashboard.jsp</url>
           <line>200</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/layout/header.jsp</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/Patients/list.jsp</url>
+          <line>55</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
